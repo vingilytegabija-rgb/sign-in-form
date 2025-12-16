@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Kairė pusė */
+.left {
+  flex: 1;
+  background: #2c2c2c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left h1 {
+  font-size: 48px;
+}
+
+/* Dešinė pusė */
+.right {
+  flex: 2;
+  padding: 40px;
+  background: #f9f9f9;
+}
+
+.intro {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Forma */
+form {
+  background: white;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form h2 {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: blue;
+  outline: none;
+}
+
+/* Mygtukas */
+button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background: #596D48;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #475a39;
+}
+
+.login {
+  margin-top: 20px;
+}
+
+.login a {
+  color: #596D48;
+  text-decoration: none;
+}
